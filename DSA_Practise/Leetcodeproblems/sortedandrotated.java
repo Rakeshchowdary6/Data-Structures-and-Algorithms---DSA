@@ -1,4 +1,4 @@
-package DSA_Practise.Leetcodeproblems;
+//package DSA_Practise.Leetcodeproblems;
 
 public class sortedandrotated {
     public static void main(String[] args) {
