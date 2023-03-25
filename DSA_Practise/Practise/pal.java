@@ -33,7 +33,7 @@ class palindrom1{
         
         String str = "MY NAME IS MALAYALAM AMMA I AMA KALAK";
 
-        str.indexOf(str);
+        System.out.println(str.indexOf("I"));
     //    char arr[] = str.toCharArray();
 
       //  arr[] = str.split(" ");
