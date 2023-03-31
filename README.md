@@ -1,4 +1,4 @@
-# VS-JAVA
+# DSA Grind
 
 Few DSA problems solved in VS - CODE
 
