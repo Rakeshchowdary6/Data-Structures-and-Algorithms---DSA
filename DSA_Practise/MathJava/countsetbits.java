@@ -46,7 +46,7 @@ class Solution {
 class countofchars{
     public static void main(String[] args) {
         
-        String str = "iii am rakesh";
+        String str = "iiiamrakesh";
 
         for(int i=0;i<str.length();i++){
             int count=1;

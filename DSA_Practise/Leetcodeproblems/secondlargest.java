@@ -99,3 +99,29 @@ class larandsmal{
         return secondlargest;
     }
 }
+
+
+
+class sechigh{
+    public static void main(String[] args) {
+        int[] arr = {1,2,33,52,5,7,12};
+        System.out.println(sechighh(arr));
+    }
+    static int sechighh(int[]arr){
+        int largest = arr[0];
+        int sechigh = -1;
+
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>largest){
+                //sechigh = largest;
+                largest = arr[i];
+            }
+        }
+        for(int i=0;i<arr.length;i++){
+             if(arr[i]>sechigh && largest!=arr[i]){
+                sechigh = arr[i];
+             }
+        }
+        return sechigh;
+    }
+}
