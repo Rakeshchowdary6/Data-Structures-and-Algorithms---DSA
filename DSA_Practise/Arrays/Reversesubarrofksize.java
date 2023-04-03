@@ -1,3 +1,5 @@
+package DSA_Practise.Arrays;
+
 //package DSA_Practise.Leetcodeproblems;
 
 import java.util.Arrays;
@@ -38,4 +40,36 @@ public class Reversesubarrofksize {
 
 //}
 }
+
+
+class secondsolution{
+    public static void main(String[] args) {
+        int[] a = {1,2,3,4,5,6,7,8,9,10};
+        int k = 6;
+        System.out.println(Arrays.toString(reverseksize(a, k)));
+    }
+    static int[] reverseksize(int[] arr,int k){
+          for(int i=0;i<arr.length;i=i+k){
+            if(i+k>arr.length){
+                reverse(arr,i,arr.length-1);
+            }else{
+                reverse(arr,i,i+k-1);
+            }
+          }
+          return arr;
+    }
+    private static void reverse(int[] arr, int start, int end) {
+        // for(int i=start;i<=start+(end-start)/2;i++){
+        //     int temp = arr[i];
+        //     arr[i] = arr[end-i+start];
+        //     arr[end-i+start] = temp;
+        while(start<=end){
+             int temp = arr[start];
+             arr[start]=arr[end];
+             arr[end]=temp;
+             start++;
+             end--;
+        }
+      }
+    }
 
