@@ -1,3 +1,5 @@
+package DSA_Practise.Leetcodeproblems;
+
 import java.util.Arrays;
 
 public class dnf {

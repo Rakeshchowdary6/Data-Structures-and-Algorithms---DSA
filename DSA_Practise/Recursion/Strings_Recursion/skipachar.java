@@ -223,3 +223,58 @@ class chars{
     }
 
 }
+
+
+class leetcodedaily {
+    public static void main(String[] args) {
+        String s1 = "abc";
+        String s2 = "pqr";
+        System.out.println(mergeAlternately(s1, s2));
+    }
+    public static String mergeAlternately(String word1, String word2) {
+        String word = "";
+        if(word.length()==(word1.length()+word2.length())){
+            return word;
+        }
+        if(!word1.isEmpty()){
+            char ch = word1.charAt(0);
+            char ch1 = word2.charAt(0);
+            word += ch+ch1;
+            mergeAlternately(word1.substring(1), word2.substring(1));
+        }else{
+            mergeAlternately(word, word2.substring(word2.length()-word1.length()));
+        }
+        return "";
+    }
+}
+
+
+class leetcodedaily1 {
+    public static void main(String[] args) {
+        String s1 = "abcd";
+        String s2 = "pq";
+        System.out.println(mergeAlternately(s1, s2));
+    }
+
+    public static String mergeAlternately(String word1, String word2) {
+        if (word1.isEmpty() && word2.isEmpty()) {
+            return "";
+        }
+        
+        String word = "";
+        if (!word1.isEmpty()) {
+            char ch = word1.charAt(0);
+            word += ch;
+            if (!word2.isEmpty()) {
+                char ch1 = word2.charAt(0);
+                word += ch1;
+                word += mergeAlternately(word1.substring(1), word2.substring(1));
+            } else {
+                word += word1.substring(1);
+            }
+        } else {
+            word +=  word2;
+        }
+        return word;
+    }
+}

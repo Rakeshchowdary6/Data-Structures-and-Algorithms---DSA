@@ -16,36 +16,37 @@ public class Reversesubarrofksize {
             int start = i;
             int end = Math.min(i+k-1, arr.length-1);
 
-            // while(start<=end){
-            //     int temp = arr[start];
-            //     arr[start]=arr[end];
-            //     arr[end]=temp;
-            //     start++;
-            //     end--;
-            // }
+            while(start<=end){
+                int temp = arr[start];
+                arr[start]=arr[end];
+                arr[end]=temp;
+                start++;
+                end--;
+            }
 
-            reverse(arr,start,end);
+           // reverse(arr,start,end);
         }
         return arr;
     }
-     static int[] reverse(int[] arr, int start, int end) {
-        for(int i=start;i<=start+(end-start)/2;i++){
-              int temp = arr[i];
-              arr[i] = arr[end-i+start];
-              arr[end-i+start] = temp;
-        }
-        return arr;
-    }
+}
+    //  static int[] reverse(int[] arr, int start, int end) {
+    //     for(int i=start;i<=start+(end-start)/2;i++){
+    //           int temp = arr[i];
+    //           arr[i] = arr[end-i+start];
+    //           arr[end-i+start] = temp;
+    //     }
+    //     return arr;
+    // }
     // return arr;
 
 //}
-}
+
 
 
 class secondsolution{
     public static void main(String[] args) {
-        int[] a = {1,2,3,4,5,6,7,8,9,10};
-        int k = 10;
+        int[] a = {1,2,3,4,5,6,7,8,9,10,11};
+        int k = 3;
         System.out.println(Arrays.toString(reverseksize(a, k)));
     }
     static int[] reverseksize(int[] arr,int k){
