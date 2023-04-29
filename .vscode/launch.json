@@ -95,7 +95,7 @@
             "type": "java",
             "name": "subarrays",
             "request": "launch",
-            "mainClass": "DSA_Practise.Arrays.subarrays",
+            "mainClass": "DSA_Practise.Arrays.subarraysum",
             "projectName": "DSA-JAVA_ec85c217"
         },
         {
