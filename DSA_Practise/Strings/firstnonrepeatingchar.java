@@ -27,7 +27,7 @@ public class firstnonrepeatingchar {
 class str{
     public static void main(String[] args) {
         String s = "asad";
-        int a = 'g'-'a';
+        int a = 'g'-'a' + 1;
         int b = (int)s.charAt(2);
         System.out.println(a);
         System.out.println(b);

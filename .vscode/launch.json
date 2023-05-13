@@ -4,10 +4,76 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
-
-
+        {
+            "type": "java",
+            "name": "lcgetlucky",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Leetcodeproblems.lcgetlucky",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "Solutiondedd",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Recursion.Solutiondedd",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "Solutionlcprblm",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Recursion.Solutionlcprblm",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "ishappynum",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Recursion.ishappynum",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "validmountain",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Binarysearchproblems.validmountain",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "lcarr",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Arrays.lcarr",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "doubt",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Arrays.doubt",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "Soluti",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Arrays.Soluti",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "Solutionmnm",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Arrays.Solutionmnm",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "productsign",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Arrays.productsign",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
         {
             "type": "java",
             "name": "Current File",

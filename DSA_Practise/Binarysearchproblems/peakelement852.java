@@ -22,6 +22,6 @@ class peakelement{
                 low=mid+1;
             }
         }
-        return low; //{arr[high]};
+        return arr[low]; //{arr[high]};
     }
 }
