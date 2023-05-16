@@ -215,3 +215,24 @@ class twodddarray{
 
 
 
+class Solutionfftgtg {
+  public static void main(String[] args) {
+    int[][] a = {{7,2,1},{6,4,2},{6,5,3},{3,2,1}};
+    System.out.println(matrixSum(a));
+  }
+  public static int matrixSum(int[][] nums) {
+      int sum=0;int min=0;
+      for(int i=0;i<nums.length;i++){
+           min=0;
+         
+          for(int j=i;j<=i;j++){
+                if(min<nums[i][j]){
+                    min=nums[i][j];
+                }
+          }
+          
+      }
+      sum += min;
+      return sum;
+  }
+}

@@ -1,3 +1,5 @@
+package DSA_Practise.Leetcodeproblems;
+
 //package DSA_Practise.Leetcodeproblems;
 
 
@@ -39,7 +41,7 @@ class Solutionssssssss {
         }
     }
     static int[] smallerNumbersThanCurrent(int[] nums) {
-        //Arrays.sort(nums);
+       // Arrays.sort(nums);
         int[] arr = new int[nums.length];
         for(int i=0;i<nums.length;i++){
             int count=0;

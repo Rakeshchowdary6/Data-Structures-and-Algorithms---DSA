@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "creating",
+            "request": "launch",
+            "mainClass": "DSA_Practise.LinkedList.creating",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "Solutionfftgtg",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Grind.Solutionfftgtg",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
             "name": "lcgetlucky",
             "request": "launch",
             "mainClass": "DSA_Practise.Leetcodeproblems.lcgetlucky",
