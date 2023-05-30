@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reversealinkedlist1",
+            "request": "launch",
+            "mainClass": "DSA_Practise.LinkedList.reversealinkedlist1",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "reversealinkedlist",
+            "request": "launch",
+            "mainClass": "DSA_Practise.LinkedList.reversealinkedlist",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "linkedsingle",
+            "request": "launch",
+            "mainClass": "DSA_Practise.LinkedList.linkedsingle",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "LList",
+            "request": "launch",
+            "mainClass": "DSA_Practise.LinkedList.LList",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
+            "name": "arraylcprblm",
+            "request": "launch",
+            "mainClass": "DSA_Practise.Arrays.arraylcprblm",
+            "projectName": "DSA-JAVA_ec85c217"
+        },
+        {
+            "type": "java",
             "name": "creating",
             "request": "launch",
             "mainClass": "DSA_Practise.LinkedList.creating",
